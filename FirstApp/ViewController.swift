@@ -12,10 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("")
+        print("view did load")
+        welcome()
         // Do any additional setup after loading the view.
     }
 
-
+    func welcome() {
+        print("Welcome")
+    }
 }
 
