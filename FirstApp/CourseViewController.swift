@@ -27,6 +27,7 @@ class CourseViewController: UIViewController {
         else{
             self.courseTable.reloadData()
         }
+        print("table has been refreshed")
     }
 }
 
