@@ -9,16 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var messageLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("view did load")
-        welcome()
+        welcome(message: "welcome to ios tutorials")
         // Do any additional setup after loading the view.
     }
 
-    func welcome() {
-        print("Welcome")
+    func welcome(message:String="") {
+        messageLabel.text = message
     }
 }
 
