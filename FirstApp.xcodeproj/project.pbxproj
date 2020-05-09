@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E2293E82466C71D0094369E /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2293E72466C71D0094369E /* CourseViewController.swift */; };
 		9EEFC966246563CB00B5608F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEFC965246563CB00B5608F /* AppDelegate.swift */; };
 		9EEFC968246563CB00B5608F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEFC967246563CB00B5608F /* SceneDelegate.swift */; };
 		9EEFC96A246563CB00B5608F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEFC969246563CB00B5608F /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E2293E72466C71D0094369E /* CourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
 		9EEFC962246563CB00B5608F /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EEFC965246563CB00B5608F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EEFC967246563CB00B5608F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				9EEFC965246563CB00B5608F /* AppDelegate.swift */,
 				9EEFC967246563CB00B5608F /* SceneDelegate.swift */,
 				9EEFC969246563CB00B5608F /* ViewController.swift */,
+				9E2293E72466C71D0094369E /* CourseViewController.swift */,
 				9EEFC96B246563CB00B5608F /* Main.storyboard */,
 				9EEFC96E246563CC00B5608F /* Assets.xcassets */,
 				9EEFC970246563CC00B5608F /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EEFC96A246563CB00B5608F /* ViewController.swift in Sources */,
+				9E2293E82466C71D0094369E /* CourseViewController.swift in Sources */,
 				9EEFC966246563CB00B5608F /* AppDelegate.swift in Sources */,
 				9EEFC968246563CB00B5608F /* SceneDelegate.swift in Sources */,
 			);
