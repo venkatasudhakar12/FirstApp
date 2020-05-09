@@ -20,6 +20,12 @@ class CourseViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func actionForSegment(_ sender: Any) {
+        if segment.selectedSegmentIndex == 0 {
+            self.courseTable.reloadData()
+        }
+        else{
+            self.courseTable.reloadData()
+        }
     }
 }
 
